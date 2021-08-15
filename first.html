@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- EMBEDDED/INTERNAL CSS -->
+    <style>
+        p3 {
+          color:wheat;
+          background-color: rgb(0, 95, 95);  
+        }
+    </style>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="CSS/first.css">
+
+</head>
+<body>
+    <!-- INLINE CSS -->
+    <p1 style="color:white; background-color: gray;">
+        This is an example of inline styling.
+    </p1> <br>
+
+    <!-- EMBEDDED... -->
+    <p3>
+        This is already styled in &lt;head&gt;!
+    </p3><br>
+
+    <!-- EXTERNAL by element -->
+    <p2>
+        This is styled in a separate .css file!
+    </p2><br>
+    
+    <!-- External by ID -->
+    <br>
+    <div id="section">
+        This section is styled using element's id!
+    </div>
+    <div>
+        And this one's not!
+    </div>
+
+    <!-- External by class -->
+    <br>
+    <div >
+        <p class="greenblue">Paragraph styled by class name!</p>
+        <p>Not styled but in the same section</p>
+    </div>
+    <p class="greenblue">Not in the section but still styled by class name!</p>
+
+    <!-- DESCENDANT SELECTOR -->
+    <div id="intro">
+        <p class="first">This is a <em> paragraph.</em></p>
+        <p> This is the second paragraph. </p>
+     </div>
+     <p class="first"> This is not in the intro section.</p>
+     <p> The second paragraph is not in the intro section. </p>
+
+     <p class="serif">This is a paragraph shown in serif font.</p>
+     <p class="sansserif">This is a paragraph shown in sans-serif font.</p>
+     <p class="monospace">This is a paragraph shown in monospace font.</p>
+     <p class="cursive">This is a paragraph shown in cursive font.</p>
+     <p class="fantasy">This is a paragraph shown in fantasy font.</p>
+
+</body>
+</html>

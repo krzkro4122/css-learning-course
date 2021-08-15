@@ -1,0 +1,45 @@
+p2 {
+    color: white;
+    background-color: blueviolet;
+    font-size: 150%;
+}
+
+#section {
+    color: darkred;
+    background-color: gray;
+    font-size: large;
+}
+
+.greenblue {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: peru;
+}
+
+#intro .first em {
+    color: pink;
+    background-color: black;
+} /* This is a nested element's style */
+
+
+/* Access by element AND class name  */
+
+p.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.cursive {
+    font-family: cursive;
+}
+
+p.fantasy {
+    font-family: fantasy;
+}
